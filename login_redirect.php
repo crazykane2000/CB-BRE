@@ -17,7 +17,7 @@
 		}
 		try {
 		    $stmt = $pdo->prepare('SELECT * FROM `users` WHERE `email` = "'.$email.'" AND `password`="'.$pass.'" AND `verified`="Yes"');
-		    echo 'SELECT * FROM `users` WHERE `email` = "'.$email.'" AND `password`="'.$pass.'" AND `verified`="Yes"';
+		   // echo 'SELECT * FROM `users` WHERE `email` = "'.$email.'" AND `password`="'.$pass.'" AND `verified`="Yes"';
 		   } catch(PDOException $ex) {
 		    echo "An Error occured!"; 
 		    print_r($ex->getMessage());
@@ -26,7 +26,7 @@
 		$stmt->execute();
 		$user = $stmt->fetch();
 		$row_count = $stmt->rowCount();	
-		echo $row_count;
+		//echo $row_count;
 
 		if($row_count>0){	
 			$_SESSION['user'] = $email;

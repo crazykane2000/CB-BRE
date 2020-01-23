@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sign In | Career Builder</title>
+    <title>Sign In | Career Builder : BRE</title>
     <meta name="description" content="Career Builder">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -31,7 +31,7 @@
             <div class="c-field">
               <label class="c-field__label">Login as</label>
               <select class="c-input u-mb-small" style="-webkit-appearance:none;" name="type" required>
-                <option>Employer</option>
+                <option>Business Analyst</option>
               </select>
             </div>
 
@@ -47,7 +47,7 @@
 
             <button class="c-btn c-btn--fullwidth c-btn--info" name="login">Login</button>
             <br/><br/>
-            <a href="register.php">Register Now!</a>
+           
           </form>
         </div>
       </div>

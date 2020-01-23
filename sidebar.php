@@ -14,14 +14,14 @@
               </li>    
 
               <li>
-                <a class="c-sidebar__link" href="plans.php">
-                  <i class="c-sidebar__icon feather icon-home"></i>Plans 
+                <a class="c-sidebar__link" href="make_rule.php">
+                  <i class="c-sidebar__icon feather icon-home"></i>Add Rule 
                 </a>
               </li> 
 
                <li>
-                <a class="c-sidebar__link" href="kyc.php">
-                  <i class="c-sidebar__icon feather icon-home"></i>KYC
+                <a class="c-sidebar__link" href="view_rules.php">
+                  <i class="c-sidebar__icon feather icon-home"></i>View Rule 
                 </a>
               </li> 
 
@@ -33,14 +33,14 @@
   
 
                <li>
-                <a class="c-sidebar__link" href="wallet.php">
-                  <i class="c-sidebar__icon feather icon-home"></i>My Wallet 
+                <a class="c-sidebar__link" href="view_all_rule_data.php">
+                  <i class="c-sidebar__icon feather icon-home"></i>View All Rule
                 </a>
               </li>    
 
               <li>
-                <a class="c-sidebar__link" href="support.php">
-                  <i class="c-sidebar__icon feather icon-home"></i>Support
+                <a class="c-sidebar__link" href="build_query.php">
+                  <i class="c-sidebar__icon feather icon-home"></i>Build Query
                 </a>
               </li>  
               <!-- 
@@ -66,22 +66,16 @@
                 </a>
               </li> -->
               <li>
-                <a class="c-sidebar__link" href="transactions.php">
-                  <i class="c-sidebar__icon feather icon-users"></i>Transactions
+                <a class="c-sidebar__link" href="execute_json_rule.php">
+                  <i class="c-sidebar__icon feather icon-users"></i>Execute JSon
                 </a>
               </li>
                
                <li>
-                <a class="c-sidebar__link" href="view_producers.php">
-                  <i class="c-sidebar__icon feather icon-users"></i>Total Employee
+                <a class="c-sidebar__link" href="build_query.php">
+                  <i class="c-sidebar__icon feather icon-users"></i>Build Query
                 </a>
               </li>
-              <li>
-                <a class="c-sidebar__link" href="white_listed_producers.php">
-                  <i class="c-sidebar__icon feather icon-users"></i>Whitelisted Employee
-                </a>
-              </li>
-             
               
             </ul>
 
